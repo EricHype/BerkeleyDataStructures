@@ -6,6 +6,7 @@ A. Define what is meant by Abstract Data Type.
 
 An abstract data type designed by the programmer. 
 It defines operations that can be performed on the data of the object and the data organization a representation.
+Generally, it is a type than cannot be instantiated on it's own, only inherited into concrete types.
 
 B. During Nov 2 class, we came up with a Bag data type, ie ADT Bag,
 Write a Java / C++ / C / Python program to implement a Bag.
