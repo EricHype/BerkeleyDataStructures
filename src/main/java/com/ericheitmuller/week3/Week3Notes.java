@@ -1,10 +1,10 @@
-package com.company;
+package com.ericheitmuller.week3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Main {
+public class Week3Notes {
 
     public static String[] chars = { "", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P",
     "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" };
