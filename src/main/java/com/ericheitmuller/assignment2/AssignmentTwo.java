@@ -28,6 +28,12 @@ public class AssignmentTwo {
         System.out.println("Is [1,2] equal to 1-9? " + isOneThroughNine(new int[] { 1, 2 }));
         System.out.println("Is [1,2,3,4,6,5,7,8,9] equal to 1-9? " + isOneThroughNine(new int[] { 1,2,3,4,6,5,7,8,9 }));
         System.out.println("Is [1,2,3,4,5,6,7,8,9] equal to 1-9? " + isOneThroughNine(new int[] { 1,2,3,4,5,6,7,8,9 }));
+
+        /* same as above but with unsorted arrays */
+        System.out.println("Is unsorted [1,2] equal to 1-9? " + isOneThroughNineUnsorted(new int[] { 1, 2 }));
+        System.out.println("Is unsorted [1,3,2,4,6,5,8,7,9] equal to 1-9? " + isOneThroughNineUnsorted(new int[] { 1,3,2,4,6,5,8,7,9 }));
+        System.out.println("Is unsorted [1,2,3,4,7,7,7,8,9] equal to 1-9? " + isOneThroughNineUnsorted(new int[] { 1,2,3,4,7,7,7,8,9 }));
+
     }
 
     public static boolean isPalin(String string) {
@@ -76,4 +82,10 @@ public class AssignmentTwo {
 
         return true;
     }
+
+    public static boolean isOneThroughNineUnsorted(int[] arrayToTest){
+        Arrays.sort(arrayToTest);
+        return isOneThroughNine(arrayToTest);
+    }
+
 }
