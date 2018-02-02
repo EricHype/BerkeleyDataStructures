@@ -30,4 +30,4 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-mainClassName="com.ericheitmuller.week1.Arrays"
+mainClassName="com.ericheitmuller.week4.SerializeTree"
